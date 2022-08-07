@@ -1,0 +1,12 @@
+@import "../abstracts/variables";
+
+html {
+  font-size: 10px;
+}
+
+body {
+  @include font-size(1.6rem);
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: normal;
+}

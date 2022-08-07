@@ -1,0 +1,104 @@
+@import "~bootstrap/scss/vendor/rfs";
+
+// ---------------------------------------------------
+// Color System
+// ---------------------------------------------------
+
+// Custom theme colors
+$red-salsa: #f2454e;
+$terra-cotta: #e57460;
+$skobeloff: #03777e;
+$cadet-blue: #51a4a1;
+$maize-crayola: #fdd14a;
+
+$red-salsa-darker: #af0b13;
+$red-salsa-dark: #e41822;
+$red-salsa: #f2454e;
+$red-salsa-light: #fb6971;
+$red-salsa-lighter: #fd9499;
+
+$skobeloff-darker: #004a4e;
+$skobeloff-dark: #016267;
+$skobeloff: #03777e;
+$skobeloff-light: #168f95;
+$skobeloff-lighter: #34989d;
+
+$maize-crayola-darker: #ba8f0b;
+$maize-crayola-dark: #edbb1f;
+$maize-crayola: #fdd14a;
+$maize-crayola-light: #fddb6d;
+$maize-crayola-lighter: #ffe698;
+
+$black: #000;
+$white: #fff;
+
+// Custom theme color variables
+$primary-darker: $red-salsa-darker;
+$primary-dark: $red-salsa-dark;
+$primary: $red-salsa; // Bootstrap override
+$primary-light: $red-salsa-light;
+$primary-lighter: $red-salsa-lighter;
+$secondary-darker: $skobeloff-darker;
+$secondary-dark: $skobeloff-dark;
+$secondary: $skobeloff; // Bootstrap override
+$secondary-light: $skobeloff-light;
+$secondary-lighter: $skobeloff-lighter;
+
+$theme-colors: (
+  "primary-darker": $primary-darker,
+  "primary-dark": $primary-dark,
+  "primary": $primary,
+  "primary-light": $primary-light,
+  "primary-lighter": $primary-lighter,
+  "secondary-darker": $secondary-darker,
+  "secondary-dark": $secondary-dark,
+  "secondary": $secondary,
+  "secondary-light": $secondary-light,
+  "secondary-lighter": $secondary-lighter,
+);
+
+// ---------------------------------------------------
+// Font system
+// ---------------------------------------------------
+
+// Font families
+$poppins: "Poppins", verdana, sans-serif;
+$lora: "Lora", helvetica, sans-serif;
+$font-family-base: $poppins; // Bootstrap override
+$headings-font-family: $poppins; // Bootstrap override
+
+$enable-rfs: true !important;
+$rfs-rem-value: 10; // Bootstrap override
+
+// ---------------------------------------------------
+// Breakpoints
+// ---------------------------------------------------
+
+$xs: 576px;
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
+$xl: 1400px;
+
+$bps: (
+  "xs": $xs,
+  "sm": $sm,
+  "md": $md,
+  "lg": $lg,
+  "xl": $xl,
+);
+
+// ---------------------------------------------------
+// Bootstrap overrides
+// ---------------------------------------------------
+
+// Misc.
+$transitions: 0.25s ease-in;
+
+// Spacing
+$spacer: 2rem;
+
+// Borders
+$border-radius: 0.5rem;
+$border-radius-sm: 0.25rem;
+$border-radius-lg: 0.75rem;

@@ -1,0 +1,49 @@
+.title-header > h2 {
+  font-size: 4.8rem;
+  font-weight: 300;
+  margin: 0 0 3rem;
+  position: relative;
+}
+
+.title-header > h2::before {
+  color: #03777e;
+  content: "{ ";
+}
+
+.title-header > h2::after {
+  color: #03777e;
+  content: " }";
+}
+
+.title-header > h2 > p {
+  padding: 0 2rem;
+}
+
+.block-header > h2 {
+  font-size: 3.6rem;
+  font-weight: 300;
+  margin: 0 0 3rem;
+  position: relative;
+}
+
+.block-header > h2::before {
+  color: #03777e;
+  content: "{ ";
+}
+
+.block-header > h2::after {
+  color: #03777e;
+  content: " }";
+}
+
+.block-header > h2 > p {
+  padding: 0 2rem;
+}
+
+.title-line,
+.block-line {
+  background: #000;
+  height: 1px;
+  margin: 3rem auto;
+  width: 5.5rem;
+}
