@@ -40,7 +40,7 @@ exclude:
 # Assets
 sass:
   sass_dir: _sass
-  implementation: sass-embedded
+  style: compressed
 
 # permalink: "/:title"
 
