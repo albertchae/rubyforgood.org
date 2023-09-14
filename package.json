@@ -28,11 +28,11 @@
       "prettier --write"
     ],
     "**/*.scss": [
-      "stylelint --fix --custom-syntax postcss-scss",
+      "stylelint --fix",
       "prettier --write"
     ],
     "**/*.md": [
-      "markdownlint --fix",
+      "markdownlint-cli2 --fix",
       "prettier --write"
     ],
     "**/*.js": [
@@ -55,10 +55,11 @@
     "postcss-nested": "^5.0.6",
     "postcss-scss": "^4.0.4",
     "prettier": "^2.4.1",
-    "stylelint": "^14.0.1",
+    "stylelint": "^14.13.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-sass-guidelines": "^9.0.0",
     "stylelint-config-standard": "^23.0.0",
+    "stylelint-config-standard-scss": "^5.0.0",
     "stylelint-processor-ignore-front-matter": "^1.0.2"
   },
   "dependencies": {
